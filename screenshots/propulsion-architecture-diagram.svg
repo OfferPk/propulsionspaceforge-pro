@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540">
+  <rect width="960" height="540" fill="#060b16"/>
+  <text x="40" y="46" fill="#38bdf8" font-family="monospace" font-size="20" font-weight="bold">PropulsionSpaceForge Pro v1.0.0 — ECSS-E-ST-35-01C &amp; 35C Architecture</text>
+  <text x="40" y="70" fill="#94a3b8" font-family="monospace" font-size="13">Multi-Maneuver Delta-V Budget • Tsiolkovsky Solver • Blowdown Pressure Ratio • Residual PMD Margin</text>
+
+  <rect x="40" y="110" width="260" height="175" rx="10" fill="#0f172a" stroke="#38bdf8" stroke-width="2"/>
+  <text x="58" y="140" fill="#38bdf8" font-family="monospace" font-size="14" font-weight="bold">1. DELTA-V MANEUVERS</text>
+  <text x="58" y="164" fill="#e2e8f0" font-family="monospace" font-size="12">ECSS-E-ST-35-01C Clause 4</text>
+  <text x="58" y="188" fill="#94a3b8" font-family="monospace" font-size="11">• Deterministic Margin &ge; 5.0%</text>
+  <text x="58" y="208" fill="#94a3b8" font-family="monospace" font-size="11">• Stochastic Margin &ge; 10.0%</text>
+  <text x="58" y="228" fill="#94a3b8" font-family="monospace" font-size="11">• EOL Deorbit Burn Included</text>
+  <text x="58" y="248" fill="#34d399" font-family="monospace" font-size="11">• Tsiolkovsky Mass Depletion</text>
+
+  <rect x="40" y="315" width="260" height="175" rx="10" fill="#0f172a" stroke="#34d399" stroke-width="2"/>
+  <text x="58" y="345" fill="#34d399" font-family="monospace" font-size="14" font-weight="bold">2. TANK BLOWDOWN</text>
+  <text x="58" y="369" fill="#e2e8f0" font-family="monospace" font-size="12">ECSS-E-ST-35-01C Clause 5</text>
+  <text x="58" y="393" fill="#94a3b8" font-family="monospace" font-size="11">• Ratio: P_init/P_final &le; 4.0:1</text>
+  <text x="58" y="413" fill="#94a3b8" font-family="monospace" font-size="11">• Feed Pressure Margin &gt; 0 bar</text>
+  <text x="58" y="433" fill="#94a3b8" font-family="monospace" font-size="11">• Initial Gas Ullage &ge; 5.0%</text>
+  <text x="58" y="453" fill="#38bdf8" font-family="monospace" font-size="11">• Isothermal Gas Expansion</text>
+
+  <rect x="360" y="110" width="260" height="380" rx="10" fill="#0f172a" stroke="#fbbf24" stroke-width="2"/>
+  <text x="378" y="140" fill="#fbbf24" font-family="monospace" font-size="14" font-weight="bold">3. PROPELLANT BUDGET</text>
+  <text x="378" y="164" fill="#e2e8f0" font-family="monospace" font-size="12">Mass Balance &amp; Margins</text>
+  <text x="378" y="192" fill="#94a3b8" font-family="monospace" font-size="11">• M_wet = M_dry + M_prop</text>
+  <text x="378" y="214" fill="#94a3b8" font-family="monospace" font-size="11">• Trapped Residual &ge; 1.5%</text>
+  <text x="378" y="236" fill="#94a3b8" font-family="monospace" font-size="11">• Usable Propellant Margin &ge; 0kg</text>
+  <text x="378" y="258" fill="#94a3b8" font-family="monospace" font-size="11">• Burnout Mass = Dry + Res</text>
+  <text x="378" y="294" fill="#38bdf8" font-family="monospace" font-size="12" font-weight="bold">Propulsion Architectures:</text>
+  <text x="378" y="318" fill="#94a3b8" font-family="monospace" font-size="11">• Hydrazine (220-235s Isp)</text>
+  <text x="378" y="340" fill="#94a3b8" font-family="monospace" font-size="11">• Biprop MMH/NTO (318s Isp)</text>
+  <text x="378" y="362" fill="#34d399" font-family="monospace" font-size="11">• Hall HET Xenon (1650s Isp)</text>
+
+  <rect x="680" y="110" width="240" height="380" rx="10" fill="#0f172a" stroke="#a855f7" stroke-width="2"/>
+  <text x="698" y="140" fill="#c084fc" font-family="monospace" font-size="14" font-weight="bold">4. MISSION ASSURANCE</text>
+  <text x="698" y="164" fill="#e2e8f0" font-family="monospace" font-size="12">ECSS-E-ST-35C Verification</text>
+  <text x="698" y="196" fill="#94a3b8" font-family="monospace" font-size="11">• Dual-Seat Latch Isolation</text>
+  <text x="698" y="220" fill="#94a3b8" font-family="monospace" font-size="11">• PMD Surface Tension Vanes</text>
+  <text x="698" y="244" fill="#94a3b8" font-family="monospace" font-size="11">• Filter Mesh Sizing &Delta;P</text>
+  <text x="698" y="268" fill="#94a3b8" font-family="monospace" font-size="11">• Thruster Duty Cycle Margin</text>
+  <text x="698" y="304" fill="#34d399" font-family="monospace" font-size="12" font-weight="bold">10/10 Normative Auditor</text>
+  <text x="698" y="328" fill="#94a3b8" font-family="monospace" font-size="11">• ECSS XML Manifest Export</text>
+
+  <line x1="300" y1="195" x2="360" y2="195" stroke="#38bdf8" stroke-width="3"/>
+  <line x1="300" y1="400" x2="360" y2="400" stroke="#34d399" stroke-width="3"/>
+  <line x1="620" y1="295" x2="680" y2="295" stroke="#fbbf24" stroke-width="3"/>
+</svg>
